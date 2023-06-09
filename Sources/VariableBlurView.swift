@@ -61,7 +61,7 @@ import SwiftUI
 /// A variable blur view.
 public class VariableBlurUIView: UIVisualEffectView {
     public init(
-        gradientMask: UIImage,
+        gradientMask: UIImage = VariableBlurViewConstants.defaultGradientMask,
         maxBlurRadius: CGFloat = 20,
         filterType: String = "variableBlur"
     ) {
